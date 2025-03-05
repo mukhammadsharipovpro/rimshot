@@ -55,7 +55,7 @@ export default function () {
       <ScrollView style={styles.flex} contentContainerStyle={styles.main}>
         <InputField
           placeholder={'Имя...'}
-          value={formData.phone}
+          value={formData.name}
           onChangeText={text => handleInputChange('name', text)}
         />
 
